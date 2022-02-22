@@ -1,5 +1,8 @@
 # Getting Started
 
+Clone the repository. `git clone https://github.com/Subterrane/location-react.git`\
+Install `npm i`
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -26,3 +29,8 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `docker compose up`
+
+Runs the app in development mode inside a docker contianer.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
