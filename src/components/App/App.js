@@ -34,9 +34,7 @@ const App = () => {
 
   return (
     <main>
-      <div>
-        <label htmlFor="ip-address">IP Address</label>
-      </div>
+      <label htmlFor="ip-address">IP Address</label>
       <div className="flex">
         <input
           value={ip}
