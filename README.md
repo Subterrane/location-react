@@ -1,7 +1,8 @@
 # Getting Started
 
 Clone the repository. `git clone https://github.com/Subterrane/location-react.git`\
-Install `npm i`
+Install `npm i`\
+Ask @Subterrane for the `.env` file with the API keys and place it in the project root.
 
 ## Available Scripts
 
