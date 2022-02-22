@@ -2,9 +2,8 @@ main {
   margin-top: 1em;
 }
 
-#ip-address {
-  display: inline-block;
-  width: 80%;
-  min-width: 15ch;
-  margin-right: 1em;
+.flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
 }

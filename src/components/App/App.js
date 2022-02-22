@@ -37,14 +37,16 @@ const App = () => {
       <div>
         <label htmlFor="ip-address">IP Address</label>
       </div>
-      <input
-        value={ip}
-        type="text"
-        id="ip-address"
-        data-testid="ip-address"
-        onChange={event => setIp(event.target.value)}
-      />
-      <button onClick={getLocation}>Get Location</button>
+      <div className="flex">
+        <input
+          value={ip}
+          type="text"
+          id="ip-address"
+          data-testid="ip-address"
+          onChange={event => setIp(event.target.value)}
+        />
+        <button onClick={getLocation}>Get Location</button>
+      </div>
 
       {err && <pre>{err}</pre>}
 
