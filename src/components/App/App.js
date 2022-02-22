@@ -1,6 +1,6 @@
 import { useEffect, useCallback, useState } from "react";
-import MapChart from "./MapChart";
-import Request from "./request";
+import MapChart from "../MapChart/MapChart";
+import Request from "../../request/request";
 import "./App.css";
 
 const App = () => {
